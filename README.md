@@ -1,12 +1,10 @@
 
 # Portfólio Dev Front-End — Yasmin Alencar
-
 Bem-vindo ao meu portfólio!
 Este projeto foi desenvolvido para apresentar minhas habilidades como desenvolvedora Front-End, destacando projetos, tecnologias e minha evolução na área.
 
 
 ## Sobre o projeto
-
 Este portfólio foi criado com foco em **design moderno, performance e experiência do usuário (UX/UI)**.  
 A aplicação apresenta uma navegação fluida, animações interativas e responsividade para diferentes dispositivos.
 
@@ -57,11 +55,7 @@ npm install
 npm run dev
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
