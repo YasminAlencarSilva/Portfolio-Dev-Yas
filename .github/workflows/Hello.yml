@@ -1,0 +1,38 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events
+  # for the "main" branch
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  Validacao:
+    # Máquina digital
+    runs-on: ubuntu-latest
+
+    # Tarefas para a validação
+    steps:
+
+      # Faz o clone do repositório
+      - name: Fazendo o git clone
+        uses: actions/checkout@v4
+
+      # Mostra uma mensagem
+      - name: Executando mensagem
+        run: echo "Está executando CI"
+
+      # Mostra os arquivos do diretório
+      - name: Listando os arquivos
+        run: ls -1
+
+      # Mensagem final
+      - name: Finalizando validação
+        run: |
+          echo "Add other actions to build,"
+          echo "test, and deploy your project."
