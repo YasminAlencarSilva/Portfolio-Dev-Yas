@@ -28,7 +28,7 @@ jobs:
         run: echo "Está executando CI"
 
       # Mostra os arquivos do diretório
-      - name: Listando os arquivos
+      - name: Listando os diretorios para ver os arquivos
         run: ls -1
 
       # Mensagem final
